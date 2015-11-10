@@ -1,3 +1,27 @@
-body {
-  padding-top: 70px;  /* Move body of page below navbar. */
+body, footer {
+  font-family: "Open Sans", sans-serif;
+  color: #7E5A3A;
+}
+.navbar {
+  border-radius: 0px;
+  background-color:#7E5A3A;
+  border-color: #7E5A3A;
+}
+
+.navbar-inverse .navbar-brand{
+  color:   #E7E4DB;
+}
+
+.navbar a.dropdown-toggle{
+  color: #E7E4DB;
+}
+
+.navbar-inverse .navbar-nav > li > a{
+  color: #E7E4DB;
+
+}
+.header-image{
+  background-image: url('/images/bookshelf.jpg');
+  background-size: cover;
+  height: 360px;
 }
